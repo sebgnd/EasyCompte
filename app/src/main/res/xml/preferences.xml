@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+            android:defaultValue="Default value"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pay"
+            android:key="paydayKey"
+            android:inputType="number"
+            android:digits="0123456789"/>
+    <EditTextPreference
+            android:defaultValue="Default value"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/salary"
+            android:key="salaryKey"
+            android:inputType="number"
+            android:digits="0123456789"/>
+    <ListPreference
+            android:defaultValue="Euro"
+            android:title="@string/currency"
+            android:entries="@array/currencyName"
+            android:entryValues="@array/currencyName"
+            android:key="currencyKey"/>
+</PreferenceScreen>

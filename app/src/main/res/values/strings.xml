@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Easy Compte</string>
+    <string name="logo">logo</string>
+    <string name="setting">setting</string>
+    <string name="edit">Editer</string>
+    <string name="compte">COMPTE :</string>
+    <string name="addTransfer">Ajouter un virement</string>
+    <string name="addTransferButton">Ajouter</string>
+    <string name="titleHint">Titre virement</string>
+    <string name="amountHint">Montant</string>
+    <string name="dateHint">Date</string>
+    <string name="emptyFields">Veuillez remplir toutes les champs</string>
+    <string name="notFloat">Le champ montant doit etre un nombre</string>
+    <string name="wrongDate">La date est incorrect</string>
+    <string name="settingActivity">Paramètre</string>
+    <string name="pay">Jour de paye</string>
+    <string name="currency">Devise</string>
+    <string name="darkMode">Mode Sombre</string>
+    <string name="salary">Salaire</string>
+    <string name="enterNumber">Veuillez rentrer un nombre</string>
+    <string name="deleteTransfer">Voullez vraiment supprimer ce virement ?</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+
+    <string-array name="currencyName">
+        <item>Euro</item>
+        <item>Dollar Americain</item>
+        <item>Livre Sterling</item>
+    </string-array>
+
+    <string name="settingTitle">Paramètre</string>
+
+</resources>

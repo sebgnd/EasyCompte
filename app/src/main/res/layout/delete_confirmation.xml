@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:background="@color/white"
+                                             android:layout_height="match_parent">
+
+    <TextView
+            android:text="@string/deleteTransfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@android:color/black"
+            android:id="@+id/confirmationText" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="32dp"
+            android:textSize="16sp"/>
+    <Button
+            android:text="@string/delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/confimationButton" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/confirmationText"
+            android:background="@drawable/button_rounded_corner"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/confirmationText" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@+id/view2" android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="16dp"/>
+    <Button
+            android:text="@string/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancelButton"
+            android:background="@drawable/button_rounded_red"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/confirmationText"
+            app:layout_constraintStart_toStartOf="@+id/confirmationText" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/view2" android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="16dp"/>
+    <View
+            android:layout_width="20dp"
+            android:layout_height="38dp"
+            android:id="@+id/view2" app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="@+id/cancelButton"
+            android:layout_marginBottom="8dp"/>
+</android.support.constraint.ConstraintLayout>
