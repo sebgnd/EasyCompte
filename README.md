@@ -1,2 +1,2 @@
 # EasyCompte
-First android app - November 2018
+First android app with Kotlin - November 2018
