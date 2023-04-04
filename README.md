@@ -1,5 +1,6 @@
-## EasyCompte
-#Personal project - First android app with Kotlin - October to December 2018
+# EasyCompte
+## Personal project - First android app with Kotlin
+October to December 2018
 
 
 Home screen                |            Welcome screen |  Add a transfer
